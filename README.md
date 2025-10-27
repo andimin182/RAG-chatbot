@@ -1,6 +1,10 @@
 # RAGchatbot
 
-A RAG (Retrieval-augmented generation) chatbot that can be trained on your custom documents (PDFs). It can then answers according to your custom data. The chatbot is made using a LLM model infered from Hugging Face.
+A RAG (Retrieval-augmented generation) chatbot that can be trained on your custom documents (PDFs). It can then answers according to your custom data.
+
+- The chatbot is made using a LLM model infered from Hugging Face and the framework LlamaIndex
+- The backend is done using FastAPI
+- The UI is created with Streamlit
 
 ## Installation
 
