@@ -7,6 +7,12 @@ BACKEND_PORT=8000
 FRONTEND_SCRIPT="frontend/ui.py" # your Streamlit script
 FRONTEND_PORT=8501
 
+# Create a virtual environnement and install the requirements
+echo "Creating a virtual env and installing the dependencies.."
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
 # -------------------------------
 # Run FastAPI backend
 echo "Starting FastAPI backend on http://127.0.0.1:$BACKEND_PORT..."
